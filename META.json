@@ -50,7 +50,7 @@
    "provides" : {
       "Types::XSD::Lite" : {
          "file" : "lib/Types/XSD/Lite.pm",
-         "version" : "0.004"
+         "version" : "0.005"
       }
    },
    "release_status" : "stable",
@@ -69,5 +69,5 @@
          "web" : "https://github.com/tobyink/p5-types-xsd-lite"
       }
    },
-   "version" : "0.004"
+   "version" : "0.005"
 }

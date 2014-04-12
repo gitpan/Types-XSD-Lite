@@ -29,7 +29,7 @@
 	doap:maintainer      <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:name            "Types-XSD-Lite";
 	doap:programming-language "Perl";
-	doap:release         <http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/v_0-003>, <http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/v_0-004>;
+	doap:release         <http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/v_0-003>, <http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/v_0-004>, <http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/v_0-005>;
 	doap:repository      [
 		a doap:GitRepository;
 		doap:browse <https://github.com/tobyink/p5-types-xsd-lite>;
@@ -63,6 +63,20 @@
 	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
 	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Types-XSD-Lite-0.004.tar.gz>;
 	doap:revision        "0.004"^^xsd:string.
+
+<http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/v_0-005>
+	a                    doap:Version;
+	dc:identifier        "Types-XSD-Lite-0.005"^^xsd:string;
+	dc:issued            "2014-04-12"^^xsd:date;
+	doap-changeset:changeset [
+		doap-changeset:item [
+			a doap-changeset:Documentation;
+			rdfs:label "s/Types::XSD/Types::XSD::Lite/ in a few places.";
+		];
+	];
+	doap-changeset:released-by <http://purl.org/NET/cpan-uri/person/tobyink>;
+	doap:file-release    <http://backpan.cpan.org/authors/id/T/TO/TOBYINK/Types-XSD-Lite-0.005.tar.gz>;
+	doap:revision        "0.005"^^xsd:string.
 
 <http://purl.org/NET/cpan-uri/person/djerius>
 	a                    foaf:Person;

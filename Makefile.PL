@@ -30,7 +30,7 @@ my $meta = {
                         },
                       },
   "provides"       => {
-                        "Types::XSD::Lite" => { file => "lib/Types/XSD/Lite.pm", version => 0.004 },
+                        "Types::XSD::Lite" => { file => "lib/Types/XSD/Lite.pm", version => 0.005 },
                       },
   "release_status" => "stable",
   "resources"      => {
@@ -46,7 +46,7 @@ my $meta = {
                                         },
                         X_identifier => "http://purl.org/NET/cpan-uri/dist/Types-XSD-Lite/project",
                       },
-  "version"        => 0.004,
+  "version"        => 0.005,
 };
 
 my %dynamic_config;
